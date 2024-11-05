@@ -1,4 +1,6 @@
-Data description:
+1. Project objective: Build a decision tree model that predicts whether a consumer will terminate his/her contract
+
+2. Data description:
 
 
 ----- ---------- --------------------------------------------------------------
@@ -15,5 +17,10 @@ Data description:
 - 11    retcalls:   Number of calls previously made to retention team
 - 12    churndep:   Did the customer churn (1=Yes; 0=No)
 
+3. Modeling Steps:
 
-Project objective: Build a decision tree model that predicts whether a consumer will terminate his/her contract
+4. Insights: 
+
+5. Future Recommendations: 
+
+
