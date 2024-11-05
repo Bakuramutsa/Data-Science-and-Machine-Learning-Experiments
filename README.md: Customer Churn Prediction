@@ -18,9 +18,17 @@
 - 12    churndep:   Did the customer churn (1=Yes; 0=No)
 
 3. Modeling Steps:
+- Data exploration
+- Data Visualizatio
+- Modeling and Evaluation
 
 4. Insights: 
+- Accuracy (0.61): The model correctly classifies 61% of instances overall. While this accuracy is better than random guessing, it’s relatively low, indicating that the model might struggle to consistently make accurate predictions across both classes.
+- Precision (0.58): The precision score of 0.58 suggests that when the model predicts "Churners," it’s correct only 58% of the time. This could indicate a high number of false positives (incorrectly labeling "Non churners" as "Churners"). This may be a concern if the cost of falsely predicting churn is high, such as wasting resources on retaining customers who aren't likely to churn.
+- Recall (0.77): The model has a relatively high recall of 0.77, meaning it successfully captures 77% of actual "Churners." This shows that the model is good at identifying most of the true "Churners," which is often a priority when you want to take actions like retention efforts. However, this comes at the expense of precision, meaning some customers labeled as churners may not actually churn.
+- F1-Score (0.66): The F1-score, a balance between precision and recall, is 0.66. This score is moderately high and suggests a trade-off between recall (finding as many churners as possible) and precision (reducing false positives). Given that recall is higher than precision, the F1-score reflects that the model may favor capturing more potential churners even at the risk of misclassifying some non-churners.
 
-5. Future Recommendations: 
-
+5. Recommendations: 
+- Explore additional features to see if a higher overall accuracy and balanced precision-recall can be achieved.
+- Further tune the parameters using grid search to improve performance.
 
