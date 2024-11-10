@@ -1,4 +1,5 @@
 1. Project objective: Build a decision tree model that predicts whether a consumer will terminate his/her contract.
+In this classification problem, I explored how changing parameters affect the predictive capacity of decision tree model.
 
 2. Data description:
 
