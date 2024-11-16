@@ -39,3 +39,10 @@ Given that recall is higher than precision, the F1-score reflects that the model
 5. Recommendations: 
 - Explore additional features to see if a higher overall accuracy and balanced precision-recall can be achieved.
 - Further tune the parameters using grid search to improve performance.
+
+6. Skills and Tools
+- Exploratory Data Analysis (Variable identification, Univariate analysis, Bi-Variate analysis)
+- Data Pre-processing
+- Decision Tree Regression
+- Model Evaluation
+
